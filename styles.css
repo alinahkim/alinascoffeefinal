@@ -1,0 +1,103 @@
+html {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    background-color: #81CBF7;
+}
+  
+h1 {
+    font-family: 'Abril Fatface', cursive; 
+    font-size: 5rem;
+}
+
+h2 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 1.6rem;
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+header img {
+    width: 12rem;
+    height: auto;
+}
+
+
+nav {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    /* position: sticky; */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    font-size: 2rem;
+    justify-content: space-around;
+    /* margin */
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+#banner {
+    background: url("./resources/coffeemug.jpg") no-repeat center center/cover;
+    height: 600px;
+    color: #F5F36F;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10rem;;
+    /* align-items: center; */
+}
+
+
+#items {
+    text-align: center;
+    margin-top: 10rem;
+    padding-bottom: 5rem;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#items article{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+#items img {
+    width: 20rem;
+    /* flex-shrink: 1; */
+    /* flex-basis: 20rem; */
+    /* flex: 1 1 20rem; */
+}
+
+
+#team {
+    text-align: center;
+    color: #F5F36F;
+    margin-top: 8rem;
+    background: url("./resources/background.jpg") no-repeat center center/cover;
+}
+
+#team img {
+    width: 25rem;
+}
+
+
+footer {
+    text-align: center;
+}
